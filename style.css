@@ -2,6 +2,16 @@ body{
     font-family: 'Lato', sans-serif;
     width: 95%;  
 }
+.menu{
+    display: inline-block;
+    /* float: right; */
+    text-decoration: none;
+    /* margin-left: 200px; */
+}
+a{
+    text-decoration: none;
+
+}
 h1{
 font-size: 70px;
 line-height: 50px;
@@ -16,15 +26,16 @@ h2{
 h3{
     font-size: 30px;
     padding-left: 40px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 p{
 color: dimgray;
+text-align: center;
 }
 
 .section{
     width: 100%;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     margin-top: 10px;
 }
 .first{
@@ -47,19 +58,24 @@ color: dimgray;
     font-weight: 700;
 }
 
-.second{
+.second {
     display: inline-block;
     margin-left: o auto;
     padding: 20px;
+    /* float: left; */
 }
-
+/* #second{
+    display: inline-block;
+    margin-left: o auto;
+    padding: 20px;
+    float: right;
+} */
 .three{
     width 30%;
-    background-color: gray;
     display: inline-block;
     margin-left: 10px;
     padding: 10px;
-    box-shadow:gray;
+    /* box-shadow:gray; */
     /* float: left; */
 }
 
@@ -67,12 +83,19 @@ color: dimgray;
     width: 300px;
     margin: 10px 10px;
     padding: 10px;
+    /* float: left; */
 }
 
-#latest{
-    font-family:;
+.latest{
+    text-align: center;
+    margin-left: 50px;
 }
 
 .orage{
     color: greenyellow;
+}
+.footer{
+    display: inline;
+    text-align: center;
+    color: displsy;
 }
